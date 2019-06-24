@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="LoginTest">
+  <Parameter name="browser" value= "chrome"/>
+    <classes>
+      <class name="com.NewTourAssignment2019.Test.NTLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="RegistrationTest">
+  <Parameter name="browser" value= "firefox"/>
+    <classes>
+      <class name="com.NewTourAssignment2019.Test.NTRegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
