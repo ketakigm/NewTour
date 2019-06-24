@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-08T10:31:20Z" name="Suite" finished-at="2019-06-08T10:32:26Z" duration-ms="65903">
+    <groups>
+    </groups>
+    <test started-at="2019-06-08T10:31:20Z" name="LoginTest" finished-at="2019-06-08T10:31:50Z" duration-ms="30075">
+      <class name="com.NewTourAssignment2019.Test.NTLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:20Z" name="setUp" finished-at="2019-06-08T16:01:29Z" duration-ms="9110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethodInChildClass()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:29Z" name="beforeMethodInChildClass" finished-at="2019-06-08T16:01:30Z" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodInChildClass -->
+        <test-method signature="LoginWithInValidData()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:30Z" name="LoginWithInValidData" finished-at="2019-06-08T16:01:34Z" duration-ms="4047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:34Z" name="tearDown" finished-at="2019-06-08T16:01:35Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:35Z" name="setUp" finished-at="2019-06-08T16:01:44Z" duration-ms="8759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethodInChildClass()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:44Z" name="beforeMethodInChildClass" finished-at="2019-06-08T16:01:45Z" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodInChildClass -->
+        <test-method signature="LoginWithValidData()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:45Z" name="LoginWithValidData" finished-at="2019-06-08T16:01:50Z" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NewTourAssignment2019.Test.NTLoginTest@8e0379d]" started-at="2019-06-08T16:01:50Z" name="tearDown" finished-at="2019-06-08T16:01:50Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NewTourAssignment2019.Test.NTLoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2019-06-08T10:31:50Z" name="RegistrationTest" finished-at="2019-06-08T10:32:26Z" duration-ms="35667">
+      <class name="com.NewTourAssignment2019.Test.NTRegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:01:50Z" name="setUp" finished-at="2019-06-08T16:01:59Z" duration-ms="8696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethodInChildClass()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:01:59Z" name="beforeMethodInChildClass" finished-at="2019-06-08T16:02:00Z" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodInChildClass -->
+        <test-method signature="registerWithInValidData()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:00Z" name="registerWithInValidData" finished-at="2019-06-08T16:02:08Z" duration-ms="7545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithInValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:08Z" name="tearDown" finished-at="2019-06-08T16:02:08Z" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:08Z" name="setUp" finished-at="2019-06-08T16:02:17Z" duration-ms="8679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethodInChildClass()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:17Z" name="beforeMethodInChildClass" finished-at="2019-06-08T16:02:18Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodInChildClass -->
+        <test-method signature="registerWithValidData()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:18Z" name="registerWithValidData" finished-at="2019-06-08T16:02:25Z" duration-ms="7563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NewTourAssignment2019.Test.NTRegistrationTest@475e586c]" started-at="2019-06-08T16:02:25Z" name="tearDown" finished-at="2019-06-08T16:02:26Z" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NewTourAssignment2019.Test.NTRegistrationTest -->
+    </test> <!-- RegistrationTest -->
+  </suite> <!-- Suite -->
+</testng-results>
